@@ -1,6 +1,6 @@
 {
   "name": "vux-upload-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./src/main.js",
   "description": "vux-upload-component, the component to upload images",
   "author": "relaxing0314 <relaxing0314@163.com>",
