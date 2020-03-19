@@ -3,9 +3,9 @@
 ## vux-upload-component是什么
 
 vux-upload-component是一个vue的上传组件，是对[vux](https://github.com/airyland/vux)组件库的一个补充。
-因为vux并没有对[weui](https://github.com/weui/weui)的[uploader组件](https://weui.io/#uploader)进行封装，理由见[vux issue 682](https://github.com/airyland/vux/issues/682)，但这又是一个常见需求。在使用vux过程中，作者实现了这个组件，现整理开源出来，命名为vux-uploader。
+因为vux并没有对[weui](https://github.com/weui/weui)的[uploader组件](https://weui.io/#uploader)进行封装，理由见[vux issue 682](https://github.com/airyland/vux/issues/682)，但这又是一个常见需求。在使用vux过程中，实现了这个组件，现整理开源出来，命名为vux-upload-component。
 
-## vux-uploader的特点
+## vux-upload-component的特点
 
 + 基于vux，适合vux项目
 + 暂时不支持vux `$t`方式的多语言功能

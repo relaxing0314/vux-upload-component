@@ -17,7 +17,7 @@
           :class="{small: size === 'small'}"
         >
           <ul class="weui-uploader__files">
-            <uploader-item
+            <upload-item
               v-for="(image, index) in images"
               :key="image.url"
               :image="image"
@@ -25,7 +25,7 @@
               :getUrl="getUrl"
               @remove="remove"
               @preview="preview"
-            ></uploader-item>
+            ></upload-item>
           </ul>
 
           <div class="weui-uploader__input-box"
@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import UploaderItem from './uploader-item.vue'
+import UploadItem from './upload-item.vue'
 import axios from 'axios'
 export default {
   props: {
@@ -116,7 +116,7 @@ export default {
     }
   },
   components: {
-    UploaderItem
+    UploadItem
   },
   methods: {
     removeAaary(_arr, _obj) {

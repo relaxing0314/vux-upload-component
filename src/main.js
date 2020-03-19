@@ -1,1 +1,1 @@
-module.exports = require('./components/uploader.vue')
+module.exports = require('./components/upload.vue')
